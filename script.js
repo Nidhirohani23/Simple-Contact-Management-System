@@ -2,7 +2,6 @@ const form = document.getElementById("contactForm");
 const contactList = document.getElementById("contactList");
 let contacts = JSON.parse(localStorage.getItem("contacts")) || [];
 
-// Render contacts on screen
 function renderContacts() {
   contactList.innerHTML = "";
   contacts.forEach((c, index) => {
@@ -22,13 +21,9 @@ function renderContacts() {
     contactList.appendChild(card);
   });
 }
-
-// Save contacts to localStorage
 function saveContacts() {
   localStorage.setItem("contacts", JSON.stringify(contacts));
 }
-
-// Handle form submission
 form.addEventListener("submit", function(e) {
   e.preventDefault();
   const name = document.getElementById("name").value;
@@ -48,7 +43,6 @@ form.addEventListener("submit", function(e) {
   form.reset();
 });
 
-// Edit contact
 window.editContact = function(index) {
   const c = contacts[index];
   document.getElementById("name").value = c.name;
@@ -57,7 +51,6 @@ window.editContact = function(index) {
   document.getElementById("editIndex").value = index;
 };
 
-// Delete contact
 window.deleteContact = function(index) {
   if (confirm("Are you sure you want to delete this contact?")) {
     contacts.splice(index, 1);
@@ -68,3 +61,4 @@ window.deleteContact = function(index) {
 
 // Initial render
 renderContacts();
+
