@@ -1,30 +1,32 @@
-# 🧩 Sudoku Solver  
+# 📇 Contact Management System  
 
-A simple and interactive **Sudoku Solver Web App** built using **HTML, CSS, and JavaScript**.  
-It uses the **Backtracking Algorithm** to automatically solve Sudoku puzzles entered by the user.  
+A simple and interactive **Contact Management System** built using **HTML, CSS, and JavaScript**.  
+It allows users to **add, view, edit, and delete contacts** with details like **Name, Phone, and Email**.  
+The contacts are stored in **localStorage**, ensuring persistence even after refreshing the page.  
 
 ---
 
 ## ✨ Features
-- 🎨 **Attractive Interface** with responsive design  
-- 🔢 Enter your own Sudoku puzzle  
-- ⚡ **Solve button**: Instantly solves using backtracking  
-- ♻️ **Reset button**: Clears the grid  
-- 🚀 Can be hosted easily on **GitHub Pages**  
-
----
-
-## 🖥️ Demo
-👉 [Live Demo (GitHub Pages Link)](https://your-username.github.io/sudoku-solver)  
-*(Replace with your actual GitHub Pages link once deployed)*
+- ➕ Add new contacts with Name, Phone, and Email  
+- 📖 View contact list in a clean card layout  
+- ✏️ Edit existing contacts  
+- 🗑️ Delete unwanted contacts  
+- 💾 Data stored in **localStorage** (persists after page reload)  
+- 🎨 Attractive and responsive **UI design** with animations  
 
 ---
 
 ## 📸 Screenshot
-![Sudoku Solver Screenshot](https://via.placeholder.com/800x400.png?text=Sudoku+Solver+UI)  
-*(Replace with an actual screenshot of your project once hosted)*  
+![App Screenshot](https://via.placeholder.com/800x400.png?text=Contact+Management+System+UI)  
+*(Replace with actual screenshot after running your project)*  
 
 ---
 
 ## 🛠️ Tech Stack
-- **HTML5** – Structure
+- **HTML5** – Structure  
+- **CSS3** – Styling (UI/UX)  
+- **JavaScript (ES6)** – Logic & localStorage  
+
+---
+
+## 📂 Project Structure
