@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📇 Contact Manager</h1>
+
+    <!-- Contact Form -->
+    <form id="contactForm">
+      <input type="hidden" id="editIndex">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="text" id="phone" placeholder="Phone Number" required>
+      <input type="email" id="email" placeholder="Email Address" required>
+      <button type="submit">Save Contact</button>
+    </form>
+
+    <!-- Contact List -->
+    <div class="contact-list" id="contactList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
