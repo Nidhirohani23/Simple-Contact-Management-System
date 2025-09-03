@@ -59,6 +59,6 @@ window.deleteContact = function(index) {
   }
 };
 
-// Initial render
 renderContacts();
+
 
